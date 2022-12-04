@@ -35,3 +35,21 @@ while counter < 11: # While count is less than 11
     time.sleep(0.5) # Wait half a second
     
     counter += 1 # Add 1 to our counter
+    
+#All off after cycle
+red.value(0) # OFF
+amber.value(0) # OFF
+green.value(0) # OFF
+
+time.sleep(1)
+
+# All on for one last time
+red.value(1) # OFF
+amber.value(1) # OFF
+green.value(1) # OFF
+
+time.sleep(5)
+# All off.
+red.value(0) # OFF
+amber.value(0) # OFF
+green.value(0) # OFF
